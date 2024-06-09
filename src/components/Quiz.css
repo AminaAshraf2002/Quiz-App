@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+}
+
+.transparent-container {
+  opacity: 0.9;
+  width: 500px;
+  margin: auto;
+  margin-top: 32px;
+  margin-left: 60px;
+  background-image: url(./image/cover.JPG);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  padding: 40px 50px;
+}
+
+.transparent-container hr {
+  height: 2px;
+  border: none;
+  background: black;
+}
+
+.transparent-container h1 {
+  letter-spacing: 5px;
+  font-family: lora;
+  letter-spacing: 2px;
+  padding: 0 5px;
+  color: black;
+  font-weight: bolder;
+}
+
+.transparent-container h2 {
+  font-size: 20px;
+  font-family: papyrus;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.transparent-container ul li {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  padding-left: 15px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 15.5px;
+  cursor: pointer;
+}
+
+.transparent-container button {
+  margin: auto;
+  width: 150px;
+  height: 45px;
+  background: black;
+  color: #fce8d6;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.transparent-container .index {
+  margin: auto;
+  font-size: 15px;
+  font-family: papyrus;
+}
+
+.transparent-container .correct {
+  background: #f4cfab;
+  border-color: #00d335;
+  border-radius: 20px;
+}
+
+.transparent-container .wrong {
+  background: #d2854d;
+  border-color: rgb(133, 14, 14);
+}
+
+.transparent-container h3 {
+  font-size: 20px;
+  font-family: papyrus;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.reset-button{
+    width: 150px;
+    height: 45px;
+    background: black;
+    color: #fce8d6;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .transparent-container {
+    height: 450px;
+    width: 70%; 
+    margin-left: 20px; 
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 30px; 
+    
+  }
+}
+
+@media (max-width: 480px) { 
+   .transparent-container h1 {
+    font-size: 24px; 
+  }
+  .transparent-container h3 {
+    font-size: 19px;
+  }
+ 
+  
+  
+  .transparent-container h2 {
+    font-size: 18px; 
+  }
+  
+  .transparent-container ul li {
+    font-size: 13px;
+  }
+  
+  .transparent-container button {
+    width: 100px; 
+    height: 100px; 
+    font-size: 15px; 
+  }
+
+}
